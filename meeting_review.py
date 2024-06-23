@@ -1,3 +1,5 @@
+import json
+
 from asyncflows import AsyncFlows
 
 
@@ -16,7 +18,8 @@ async def main():
     result = await flow.run('structure.data')
 
     # Print the action items
-    print(result['action_items'])
+    action_items = result['action_items']
+    print(json.dumps(action_items, indent=2))
 
 
 if __name__ == "__main__":

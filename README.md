@@ -17,7 +17,7 @@ Extract key decisions and action items from meeting notes.
 1. Prompt `claude-3.5-sonnet` for a summary of the `meeting_notes`
 2. Prompt `gpt-4o` to generate a JSON with key decisions and action items
 <div align="center">
-
+<img width="1274" alt="meeting_review" src="https://github.com/asynchronous-flows/meeting-review-example/assets/24586651/6969d507-ab04-49f1-b1fe-3468cf42be78">
 </div>
 
 ## Running the Example
